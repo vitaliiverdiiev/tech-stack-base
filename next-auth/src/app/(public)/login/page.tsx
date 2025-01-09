@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import LoginForm from "@/components/login-form";
 
 export default function Home() {
   return (
     <main>
       <div className="container">
-        <Button variant='destructive'>Hekko World</Button>
+        <LoginForm />
       </div>
     </main>
   );
